@@ -4,6 +4,3 @@
 - Nodejs
 - Javascript
 - Html & Css
-
-#### live :
-https://spaco-website.netlify.app/
