@@ -3,7 +3,9 @@ while (!username.trim()) {
   username = prompt("Please, enter your username:");
 }
 
-const socket = new WebSocket(`ws://localhost:4000?username=${username}`);
+const socket = new WebSocket(
+  `wss://juniper-tiny-kingfisher.glitch.me?username=${username}`
+);
 
 socket.onopen = () => {
   console.log("Connected to web socket");
