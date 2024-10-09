@@ -5,7 +5,9 @@ https://sohaali710.github.io/Chat-app/
 
 ---------------------------------------
 ### using :
-- ws package (websocket)
+server:
 - Nodejs
-- Javascript
-- Html & Css
+- Websocket (ws package)
+
+frontend:
+- Html, Css and Javascript
