@@ -26,7 +26,7 @@ socket.on("connection", (ws, req) => {
 
   ws.on("close", function () {
     console.log(`Websocket connection closed`);
-    handleTypingIndicator(ws, username, false); // !For what it is used
+    handleTypingIndicator(ws, username, false);
   });
 
   //   ws.send(JSON.stringify("hello")); // send msg from server to client
